@@ -91,8 +91,8 @@
         dom.observe(this.element, "contextmenu", function() {
           cleanUp();
           that.composer.selection.executeAndRestoreSimple(function() {
-            if (that.element.lastChild) {
-              that.composer.selection.setAfter(that.element.lastChild);
+            if (that.element.firstChild) {
+              that.composer.selection.setBefore(that.element.firstChild);
             }
 
             // enable undo button in context menu
