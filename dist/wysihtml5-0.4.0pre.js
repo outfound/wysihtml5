@@ -7688,8 +7688,8 @@ wysihtml5.commands.redo = {
         dom.observe(this.element, "contextmenu", function() {
           cleanUp();
           that.composer.selection.executeAndRestoreSimple(function() {
-            if (that.element.firstChild) {
-              that.composer.selection.setBefore(that.element.firstChild);
+            if (that.element.lastChild) {
+              that.composer.selection.setBefore(that.element.lastChild);
             }
 
             // enable undo button in context menu
