@@ -66,5 +66,5 @@ h2. Contributors
 h2. Outfound Changes
 
 * 0.4.0pre: Fixed undo when the last element is not editable (signature)
-* 0.4.1pre: Fixed fatal bug with Firefox when wysiwyg is not visible at time of creation
+* 0.4.2: Fixed fatal bug with Firefox when wysiwyg is not visible at time of creation
 
